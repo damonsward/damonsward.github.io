@@ -5,7 +5,7 @@ from fastapi.staticfiles import StaticFiles
 from pathlib import Path 
 
 app = FastAPI()
-templates = Jinja2Templates(directory="templates/")
+templates = Jinja2Templates(directory="docs/")
 
 app.mount(
     "/static",
