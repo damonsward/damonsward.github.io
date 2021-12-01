@@ -20,6 +20,7 @@
 
 .project-container-left {
 	display: flex;
+	flex-direction: column;
 	text-align: left;
 	width: 50%;
 }
