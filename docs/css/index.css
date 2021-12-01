@@ -87,6 +87,12 @@
 }
 
 /* Container for skill bars */
+.body-index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .ratings-container {
     font-weight: bold;
     margin-top: 10px;
