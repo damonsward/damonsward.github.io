@@ -1,0 +1,52 @@
+.projects {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.project-container {
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	border: 2px solid black;
+	box-shadow: 1px 3px grey;
+	width: 50%;
+	height: 200px;
+}
+
+.project-container-left {
+	display: flex;
+	text-align: left;
+	width: 50%;
+}
+
+.project-container-right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+}
+
+.project-container-left h3 {
+	font-weight: bold;
+}
+
+.project-container-left h4 {
+	margin-top: 5px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.github-link a{
+	text-decoration: none;
+	color: black;
+    font-size: 200px;
+}
+
+.github-link a:hover {
+    color: lightskyblue;
+}
