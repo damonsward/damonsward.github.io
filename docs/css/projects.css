@@ -25,6 +25,10 @@
 	width: 50%;
 }
 
+.project-container-left ul {
+	list-style-type: none;
+}
+
 .project-container-right {
 	display: flex;
 	justify-content: center;
